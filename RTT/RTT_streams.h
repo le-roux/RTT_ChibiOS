@@ -36,7 +36,9 @@
  *    0 -> Connection is made with TELNET
  *    1 -> Connection is made with RTT_CLIENT
  */
+#ifndef RTT_CLIENT
 #define RTT_CLIENT 0
+#endif
 
 /*===========================================================================*/
 /* Driver pre-compile time settings.                                         */
